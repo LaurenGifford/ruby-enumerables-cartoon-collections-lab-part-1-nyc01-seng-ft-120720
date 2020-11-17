@@ -8,6 +8,6 @@ def list_dwarves(array)
   dwarves = {}
   array.each_with_index do |element, index|
     dwarves[element] = index
-    print "#{index + 1}. #{element}"
+    print "#{index + 1}. #{element} "
   end
 end
